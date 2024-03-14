@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples of HTML with a Little CSS and JavaScript</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #background-video {
+            position: fixed; /* Position the video fixed to cover the entire viewport */
+            top: 0;
+            left: 0;
+            min-width: 100%; /* Ensure the video covers the entire width */
+            min-height: 100%; /* Ensure the video covers the entire height */
+            z-index: -1; /* Place the video behind other content */
+        }
+
+        /* Styles for container0 */
+        .container0 {
+            display: flex;
+            column-gap: 20px;
+        }
+
+        /* Styles for container1 */
+        .container1 {
+            display: flex;
+            column-gap: 20px;
+        }
+
+        /* Styles for container2 */
+        .container2 {
+            display: flex;
+            column-gap: 20px;
+        }
+        /* Navigation bar styles */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: cyan;
+        }
+#countdown {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFF00;
+}
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+             <li><a href="#contact">Contact</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#models">Models</a></li>
+        <li><a href="#Home">Home</a></li>
+    </ul>
+</nav>
+
+<video autoplay muted loop id="background-video">
+    <source src="lights.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<section id="Home">
+<br>
+<br>
+<br>
+<h1><center>3d models<center><h1>
+</section>
+
+<video autoplay muted loop id="background-video">
+    <source src="lights.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<p>I love 3d modeling and for anyone who loves it or needs it like I do here is your place.</p>
+<p><strong>The best things about modeling and models are:</strong></p>
+<ol><li><strong>3d printing the model for functional purposes like car parts, dentist use, and others.</li> 
+
+<li><em>3d printing the model for decoration or fun or even for selling it.</em></li> 
+
+<li style="color:Insert Color;"> Additionally you can download the model if you need one for a project in Cinema 4d or any other program.</li></ol>
+<br>
+<br>
+<p> some of the things in a lot of jobs need a special piece for it like teeth each artificial tooth needs a special shape and modeling comes here. to improve the lives of people who need special pieces you can support 3dmodels by:</p> 
+
+<ol><li><strong>Donate to our website, if you want to donate email us at the given email above and we will guide you on how to donate.</li> 
+
+<li><em>adverise our site at your social medial accounts fo free.</em></li> 
+
+<li style="color:Insert Color;">rate us and share our URL with your friends.</li></ol> 
+
+<img src="world.jpeg" width="350">
+<h4>As shown in the photo this site can create whatever you want ranging from real equipment to
+<br> fantasy machines just tell us what you want through email and we will create it!<h4>
+<br>
+
+
+<br>
+<section id="services">
+    <h2>Services Provided</h2>
+    <p>Below are the services we provide:</p>
+    <ol>
+        <li>Providing the model you need with a considerable price!</li>
+        <li>Repairing the model if any flaws were found for free!</li>
+        <li>Enhancing the model needed or adjusting it based on your preferences for a good price!</li>
+    </ol>
+</section>
+
+<li style="color:Insert Color;">Enhancing the model needed or adjusting it based on your preferences for a good price!</li></ol> 
+
+<section id="contact">
+    <h2>Contact Us</h2>
+<h3><strong><em>if you are interested in any model email us at PrismaModeler@Gmail.com and we will guide you on how to make the purchase.</em></strong></h3>
+</section>
+<br>
+<h3><strong><em> Be aware that some of these videos have multiple models inside them and their prices are displayed below the video. if you purchase all models in a video you will have a 25% discount and if you purchase more than 3 models you will have 35% off.</em></strong></h3>
+
+<img src="insert file name">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                     <video id="video1" autoplay muted loop src="armour.mp4" width="500"></video>
+<button onclick="togglePlayPause('video1')">Play/Pause</button>
+<br>
+<h2><p>Site information and targeted audience.</p><h2>
+<p><h4>This site is for people who need 3d models and of course can not create them, if you are one of those people then our site not only provides colored models but also models with textures and animated 3d videos as well as customized models and all that without being too complex so that it does not affect you if you are planning to use them for video editing. if you are interested in our site preview the models displayed and their prices, as well as possible discounts, and then email us from the contact and we will guide you on how to make the purchase.<h4></p>
+<section id="models">
+<div class="container0">
+<video id="video2" muted loop src="iluusion.mp4" width="500"></video>
+<button onclick="togglePlayPause('video2')">Play/Pause</button>
+<br>
+<video id="video3" autoplay muted loop src="intro.mp4" width="500"></video>
+<button onclick="togglePlayPause('video3')">Play/Pause</button>
+<br>
+</div>
+<p><strong>This illusion has no negative effect but if you feel dizzy in watching such things &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp This is a model of a screen and a pc but be aware that it is not meant to be functional.<br>         
+ then do not watch it. disclaimer, it is normal and safe to view bends in your vission<br>
+ for a while after looking at the center for long.</strong></p>
+<br>
+<br>
+<br>
+<br>
+<div class="container1">
+<video id="video4" loop src="kirove reportimg.mp4" width="500"></video>
+<button onclick="togglePlayPause('video4')">Play/Pause</button>
+<br>
+<video id="video5" loop src="pyramid.mp4" width="500"></video>
+<button onclick="togglePlayPause('video5')">Play/Pause</button>
+<br>
+</div>
+<p><strong>Note that this is not meant for functional purposes and each model in the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This 3d video costs $10 but the pyramid costs $150.<br>
+ video costs $100 except for the barracks which costs $25.                                                                                                                                   </strong></p>
+<br>
+<br>
+<br>
+<br>
+<div class="container2">
+<video id="video6" loop src="su 57.mp4" width="500"></video>
+<button onclick="togglePlayPause('video6')">Play/Pause</button>
+<br>
+<video id="video7" muted loop src="watch.mp4" width="500"></video>
+<button onclick="togglePlayPause('video7')">Play/Pause</button>
+<br>
+</div>
+<p><strong>Note that this is a 3d video made out of inspiration of my opinion of the Su 57's&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    This is a 3d video of how to model a watch. Disclaimer, the video is not meant for <br>
+ beauty and has nothing to do with political groups and costs $200.                                                                                                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                           functional purposes and costs $20.</strong></p>
+<br>
+<br>
+<br>
+<br>
+</section>
+<br>
+<center><h4>ramadan offers: 70% off for all models<h4><center>
+<img src="ramadan.jpeg" width="500">
+<h2><center>Ends in</center><h2>
+<div id="countdown"></div>
+
+<p style="color:white;"> If you have a YouTube channel i would like to advertise the models there and in return, you will have 30% of the profit and if you are an influencer you will have 60%.</p>
+
+
+
+
+
+<script>
+        function togglePlayPause(videoId) {
+            var video = document.getElementById(videoId);
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+
+// Set the date and time for the countdown
+var countDownDate = new Date("Apr 09, 2024 23:59:59").getTime();
+
+// Update the countdown every second
+var x = setInterval(function() {
+
+    // Get the current date and time
+    var now = new Date().getTime();
+    
+    // Calculate the time remaining
+    var distance = countDownDate - now;
+    
+    // Calculate days, hours, minutes, and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Display the countdown in the container
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the countdown is finished, display a message
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "EXPIRED";
+    }
+}, 1000); // Update every second
+
+    </script>
+</body>
+
+</html>
